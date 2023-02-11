@@ -1,33 +1,39 @@
 <style>
-  div.footer {
+  div.footer-wrapper {
     padding: 1em;
+    margin: 0 auto;
     border: solid black;
     border-width: 1px 0px 0px 0px;
   }
-  div.social {
+  footer {
   }
-  div.footer p {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 14px;
-    text-align: center;
+  div.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: 2.0em;
+    width: 50%;
+  }
+  footer p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    text-align: left;
   }
 </style>
-     
-<div class="footer">
-  <footer>
-    <!--
-    <div class="social">
-      <a href="https://twitter.com/gothamgo">
-        <img alt="twitter" src="{{site.url}}/images/twitter.png" target="_blank" width="32" height="32">
-      </a>
-    </div>
-    -->
 
-    <p>Our "Go gophers" were created by <a href="https://twitter.com/egonelbre">Egon Elbre</a>. Thanks Egon!</p>
-    <p>The Go gopher is based on the Go mascot designed by <a href="http://reneefrench.blogspot.com/">Renée French</a> 
-       and copyrighted under the <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 license</a>.</p>
-    <p>For sponsorship information, please email us at info at nationconfs.com</p>
-    <p>We require our attendees and speakers to follow our Code of Conduct.</p>
-  </footer>
+<div class="footer-wrapper">
+  <div class="footer">
+    <footer>
+      <p>Our "Go gophers" were created by <a href="https://twitter.com/egonelbre">Egon Elbre</a>. Thanks Egon!</p>
+      <p>The Go gopher is based on the Go mascot designed by <a href="http://reneefrench.blogspot.com/">Renée French</a> 
+         and copyrighted under the <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 license</a>.</p>
+      <p>For sponsorship information, please email us at info at nationconfs.com</p>
+      <p>We require our attendees and speakers to follow our <a href="{{site.url}}/policies/conduct.html" target="_blank">Code of Conduct</a>.</p>
+
+      <a href="https://twitter.com/gothamgo" target="_blank">
+        <img alt="twitter" src="{{site.url}}/images/twitter.png" width="32" height="32"></a>
+    </footer>
+  </div>
 </div>
