@@ -8,30 +8,51 @@
   div.feature {
     display: flex;
     max-width: 900px;
+    background-color: DarkGrey;
   }
   div.feature-image {
     padding: 35px 20px;
   }
   div.feature-details {
     padding: 35px 20px;
+    background-color: DarkGrey;
   }
   div.feature p {
-    color: #28282B;
+    background-color: DarkGrey;
   }
   div.feature h1 {
-    color: #28282B;
+    background-color: DarkGrey;
   }
   div.feature h2 {
-    color: #28282B;
+    background-color: DarkGrey;
   }
   div.feature h3 {
-    color: #28282B;
+    background-color: DarkGrey;
   }
   div.feature-image img {
     padding: 3px 0px 0px 0px;
     /* box-shadow: 4px 4px 2px lightgrey; */
   }	
 </style>
+
+<div class="feature-wrapper">
+  <div id="katie_hockman_feature" class="feature">
+    <div class="feature-image">
+      <img class="speaker-image" src="{{site.url}}/images/speakers/2023/katie_hockman_full.jpg" alt="" width="150"/>
+    </div>
+
+    <div class="feature-details">
+      <h3>
+        Welcome Speaker Katie Hockman!
+      </h3>
+      <p>
+        Katie Hockman is the engineering lead for Go tracing client libraries at Datadog, and is based in NYC. 
+        She was previously at Google where she was an engineer on the Go core language team leading efforts 
+        such as the module mirror and checksum database, and adding fuzz testing support into the native Go tool chain.
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="feature-wrapper">
   <div id="cameron_balahan_feature" class="feature">
@@ -59,21 +80,3 @@
   </div>
 </div>
 
-<div class="feature-wrapper">
-  <div id="katie_hockman_feature" class="feature">
-    <div class="feature-image">
-      <img class="speaker-image" src="{{site.url}}/images/speakers/2023/katie_hockman_full.jpg" alt="" width="150"/>
-    </div>
-
-    <div class="feature-details">
-      <h3>
-        Welcome Speaker Katie Hockman!
-      </h3>
-      <p>
-        Katie Hockman is the engineering lead for Go tracing client libraries at Datadog, and is based in NYC. 
-        She was previously at Google where she was an engineer on the Go core language team leading efforts 
-        such as the module mirror and checksum database, and adding fuzz testing support into the native Go tool chain.
-      </p>
-    </div>
-  </div>
-</div>
