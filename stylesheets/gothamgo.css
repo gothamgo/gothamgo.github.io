@@ -21,6 +21,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 46px;
         text-align: center;
+        color: #28282B;
         background-color: silver;
       }
       div.content h2 {
@@ -28,6 +29,7 @@
         margin-bottom: 1em;
         font-size: 22px;
         text-align: center;
+        color: #28282B;
         background-color: silver;
       }
       div.content h3 {
@@ -35,6 +37,7 @@
         margin-bottom: 1em;
         font-size: 20px;
         text-align: center;
+        color: #28282B;  
         background-color: silver;
       }
       div.content p {
@@ -42,6 +45,7 @@
         margin-bottom: 0.5em;
         font-size: 18px;
         text-align: center;
+        color: #28282B;  
         background-color: silver;
       }
       div.content img.center {
