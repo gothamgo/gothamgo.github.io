@@ -13,6 +13,7 @@
         padding: 1em 1em 1em 1em;
         margin: 0 auto;
         color: WhiteSmoke;
+        max-width: 800px;
       }
       div.content h1 {
         margin-top: 1em;
