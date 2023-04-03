@@ -3,10 +3,10 @@
         padding: 0; 
         box-sizing: border-box;
         font-family: 'Work Sans', sans-serif;
-        background-color: Silver;
       }
       body {
         font-size: 18px;
+        background-color: Silver;
       }
       div.content {
         background-color: DarkGrey;
