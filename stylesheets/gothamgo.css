@@ -9,7 +9,7 @@
         background-color: Silver;
       }
       div.content {
-        background-color: DarkGrey;
+        background-color: silver;
         padding: 1em 1em 1em 1em;
         margin: 0 auto;
         color: WhiteSmoke;
@@ -21,28 +21,28 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 46px;
         text-align: center;
-        background-color: DarkGrey;
+        background-color: silver;
       }
       div.content h2 {
         margin-top: 1em;
         margin-bottom: 1em;
         font-size: 22px;
         text-align: center;
-        background-color: DarkGrey;
+        background-color: silver;
       }
       div.content h3 {
         margin-top: 1em;
         margin-bottom: 1em;
         font-size: 20px;
         text-align: center;
-        background-color: DarkGrey;
+        background-color: silver;
       }
       div.content p {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         font-size: 18px;
         text-align: center;
-        background-color: DarkGrey;
+        background-color: silver;
       }
       div.content img.center {
         display: block;
@@ -51,11 +51,11 @@
         margin-top: 1em;
         margin-bottom: 1.5em;
         width: 50%;
-        background-color: DarkGrey;
+        background-color: silver;
       }
       div#tickets {
-        background-color: DarkGrey;
+        background-color: silver;
       }
       div#ticket-button {
-        background-color: DarkGrey;
+        background-color: silver;
       }
