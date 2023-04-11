@@ -1,0 +1,21 @@
+<div id="jason-hall" class="speaker">
+  <div class="speaker-photo">
+    <img class="speaker-image" src="{{site.url}}/images/speakers/2023/jason_hall.jpg" alt="Jason Hall" width="150"/>
+  </div>
+
+  <div class="speaker-details">
+
+    <h3 class="speaker-name">Jason Hall</h3>
+
+    <p class="speaker-bio">
+      Jason is a professional container image nerd at Chainguard, building tools to build and manage container images, and services to move them around better and faster. He lives in Brooklyn with his wife and kids, and enjoys eating pizza more than you think. No, even more. 🍕    
+    </p>
+
+    <h3 class="talk-title">ko: The only good way to build Go containers</h3>
+
+    <p class="talk-description">
+      Containerized apps are all the rage, especially Go container apps. So why does it still suck so much to build them? Why do I need to write a Dockerfile in the year 2023? Surprise: YOU DON’T! Come learn about ko, a better, simpler, more secure(!!) way to get your app containerized and deployed.    
+    </p>
+  </div>
+  
+</div>
