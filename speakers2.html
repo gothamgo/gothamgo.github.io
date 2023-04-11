@@ -6,6 +6,17 @@ layout: default
   div.speaker {
     display: flex;
   }
+  div.speaker hr {
+    height: 1px;
+    $color: red;
+    color: $color;
+    background-image: linear-gradient(
+      90deg,
+      rgba($color, 0),
+      rgba($color, 1) 50%,
+      rgba($color, 0) 100%);
+  }
+    
   div.speaker-photo {
     padding: 30px 0px 0px 0px;
   }
