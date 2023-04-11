@@ -1,0 +1,46 @@
+<div id="mofizur_rahman" class="speaker">
+  <div class="speaker-photo">
+    <img class="speaker-image" src="{{site.url}}/images/speakers/2023/mofizur_rahman.jpg" alt="Mofizur Rahman" width="150"/>
+  </div>
+
+  <div class="speaker-details">
+
+    <h3 class="speaker-name">Mofizur Rahman</h3>
+
+    <p class="speaker-bio">
+      Mofizur Rahman (@moficodes) is a Developer Advocate at Google. 
+      His area of focus these days are GKE, Batch and Observability. 
+      His favorite programming language is Go. He also tinkers with Node, Python and Java. 
+      He is also learning and teaching in the Go, Kubernetes, Docker and Microservice community. 
+      He is a strong believer of the power of open source and importance of giving back to the community. 
+      He is a self proclaimed sticker collecting addict and has collected several box full of stickers with no signs of stopping. 
+      He can talk about board games for days.
+    </p>
+
+    <p class="speaker-bio">
+      He writes tech blogs sometimes which can be found on https://dev.to/moficodes.
+    </p>
+
+<!--
+-->
+    <h3 class="talk-title">Sorting a Trillion with Go</h3>
+
+
+    <p class="talk-description">
+      Sorting is a common programming task, and the Go standard library comes with a sort package that can be used to sort any slice by loading the data into memory. For sorting larger datasets however, we need to scale our compute vertically. But eventually, we reach an upper limit on how big our compute can be, and the only way to handle more data is to scale horizontally.
+    </p>
+
+    <p class="talk-description">
+      Dealing with a trillion of anything is a daunting task. Handling large volumes of data is common in HPC or data analytics work. Sorting can be considered a proxy for any compute and memory-intensive task.
+    </p>
+
+    <p class="talk-description">
+      In this talk, we will explore ways to optimize our Go code by using the Go profiling tool to find performance bottlenecks and introducing concurrency with goroutines to speed up the code. Even with concurrency, a single machine won’t be sufficient to handle such a volume of data. We’ll cover how to horizontally scale our workload using Kubernetes jobs.
+    </p>
+
+    <p class="talk-description">
+      Whether you are new to Go or Kubernetes, this talk will be a useful primer for utilizing Go for batch and HPC workloads.    </p>
+    </p>
+  </div>
+  
+</div>
