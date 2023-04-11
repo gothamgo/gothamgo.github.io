@@ -3,17 +3,23 @@ layout: default
 ---
 
 <style>
+  div.speakers {
+  }
+  div.speakers hr {
+    height: 1px;
+    color: lightblue;
+  }
   div.speaker {
     display: flex;
   }
   div.speaker-photo {
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
   }
   img.speaker-image {
     border-radius: 8%;
   }	
   div.speaker-details {
-    padding: 6px 20px;
+    padding: 6px 0px 0px 20px;
   }
   div.speaker p {
     color: #28282B;
@@ -46,7 +52,6 @@ layout: default
       We will add new speakers here as we confirm them.
       So, please check back often.
     </p>
-
     <p>
       We will add new speakers here as we confirm them.
       So, please check back often.
@@ -58,7 +63,16 @@ layout: default
 
     <div class="speakers">
       {% include speakers/2023/cameron_balahan.html %}
+      <hr>
       {% include speakers/2023/katie_hockman.html %}
+      <hr>
+      {% include speakers/2023/alan_donovan.html %}
+      <hr>
+      {% include speakers/2023/lesley_cordero.html %}
+      <hr>
+      {% include speakers/2023/jason_hall_html %}
+      <hr>
+      {% include speakers/2023/mofizur_rahman.html %}
     </div>
 
   </div>
