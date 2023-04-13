@@ -9,7 +9,10 @@
 
     <p class="speaker-bio">
       <a href="https://twitter.com/imjasonh" target="_blank">Jason Hall</a> 
-      is a professional container image nerd at Chainguard, building tools to build and manage container images, and services to move them around better and faster. He lives in Brooklyn with his wife and kids, and enjoys eating pizza more than you think. No, even more. 🍕    
+      is a professional container image nerd at Chainguard, building tools to build and manage container images, and services to move them around better and faster. 
+    </p>
+    <p class="speaker-bio">
+      He lives in Brooklyn with his wife and kids, and enjoys eating pizza more than you think. No, even more. 🍕    
     </p>
 
     <h3 class="talk-title">ko: The only good way to build Go containers</h3>
