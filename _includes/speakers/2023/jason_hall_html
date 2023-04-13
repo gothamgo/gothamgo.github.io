@@ -14,7 +14,20 @@
     <h3 class="talk-title">ko: The only good way to build Go containers</h3>
 
     <p class="talk-description">
-      Containerized apps are all the rage, especially Go container apps. So why does it still suck so much to build them? Why do I need to write a Dockerfile in the year 2023? Surprise: YOU DON’T! Come learn about ko, a better, simpler, more secure(!!) way to get your app containerized and deployed.    
+      ko containerizes Go applications more easily, more securely, and more fasterly than docker build, 
+      with no need to write a Dockerfile. If you can run go build, you can use ko to build and push a container image. 
+      It even generates high quality build-time SBOMs. 
+      It integrates with Kubernetes and even Terraform, if that’s your thing. 
+      It was recently accepted into the CNCF, which is kinda nice.
+    </p>
+
+    <p class="talk-description">
+      By focusing only on building Go container apps, 
+      ko is able to take advantage of Go’s great tooling and ecosystem to make the best, smallest, most secure container images possible.
+    </p>
+
+    <p class="talk-description">
+      If you stay to the end I’ll even talk about some future experimental work that might already have shipped by the time the talk happens! Time is weird.    
     </p>
   </div>
   
